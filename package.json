@@ -1,0 +1,36 @@
+{
+  "name": "csv-toolbox",
+  "version": "1.0.0",
+  "description": "Toolkit for easy and fast work with CSV format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsh/csv-toolbox.git"
+  },
+  "keywords": [
+    "csv",
+    "toolkit",
+    "toolbox",
+    "converter"
+  ],
+  "author": "dmnsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmnsh/csv-toolbox/issues"
+  },
+  "homepage": "https://github.com/dmnsh/csv-toolbox#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "jest": "^28.1.2",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
